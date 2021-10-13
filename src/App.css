@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.igLogo {
+  height: auto;
+  width: 5%
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,22 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import igLogo from './assets/ig.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <h1>Axel Saga</h1>
+        <p> Site under construction </p>
+        <p> 👷🔨🔧🧱 </p>
+        <a href="https://www.instagram.com/axelartsaga/" target="_blank">
+          <img src={igLogo} alt="ig-logo" className="igLogo"/>
         </a>
       </header>
     </div>
